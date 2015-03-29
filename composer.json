@@ -1,0 +1,23 @@
+{
+	"name" : "access-manager/am-constants",
+	"Description" : "This is a dependecy module for Access Manager defines Constants used across Access Manager & other dependency modules",
+	"license" : "MIT",
+	"authors" : [
+			{
+				"name" : "Rahul Makhija",
+				"email" : "rahulmkhj@gmail.com"
+			}
+		],
+	"require" : {
+				  "php"		: ">=5.4"
+		},
+	"autoload" : {
+			"files" : [
+				"src/Constants.php"
+			]
+		},
+	"config": {
+		"preferred-install": "dist"
+	},
+	"minimum-stability": "stable"
+}
