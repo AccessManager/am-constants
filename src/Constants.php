@@ -88,6 +88,9 @@ if( ! defined('ACTIVE') )
 if( ! defined('DEACTIVE'))
 	define('DEACTIVE',0);
 
+if( ! defined('TERMINATED'))
+	define('TERMINATED', 2);
+
 if( ! defined('ENABLED') )
 	define('ENABLED',1);
 
